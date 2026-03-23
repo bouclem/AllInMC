@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="allinmc_quest"
+version="0.1.1"
+displayName="All In MC: Quest"
+authors="Sqersters"
+description='''
+Introduces quests, skills, and progression systems to the AllInMC ecosystem.
+'''
+
+[[dependencies.allinmc_quest]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.156,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.allinmc_quest]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.allinmc_quest]]
+    modId="allinmc_configs"
+    type="required"
+    versionRange="[0.1.0,)"
+    ordering="AFTER"
+    side="BOTH"

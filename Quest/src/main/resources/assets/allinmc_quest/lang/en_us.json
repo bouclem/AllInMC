@@ -1,0 +1,20 @@
+{
+  "key.allinmc_quest.open_skills": "Open Skills Menu",
+  "key.categories.allinmc": "All In MC",
+
+  "skill.allinmc_quest.combat": "Combat",
+  "skill.allinmc_quest.mining": "Mining",
+  "skill.allinmc_quest.woodcutting": "Woodcutting",
+  "skill.allinmc_quest.farming": "Farming",
+  "skill.allinmc_quest.healing": "Healing",
+
+  "skill.allinmc_quest.bonus.combat": "+%s%% Damage",
+  "skill.allinmc_quest.bonus.mining": "+%s%% Mining Speed",
+  "skill.allinmc_quest.bonus.woodcutting": "+%s%% Chopping Speed",
+  "skill.allinmc_quest.bonus.farming": "%s%% Extra Crop Drops",
+  "skill.allinmc_quest.bonus.healing": "+%s%% Healing",
+
+  "screen.allinmc_quest.skills_title": "Skills",
+  "screen.allinmc_quest.level": "Level %s",
+  "screen.allinmc_quest.xp": "XP: %s / %s"
+}

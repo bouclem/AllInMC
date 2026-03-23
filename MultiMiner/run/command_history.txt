@@ -1,0 +1,4 @@
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/effect give @a minecraft:night_vision infinite

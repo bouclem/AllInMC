@@ -1,0 +1,404 @@
+[22mars2026 10:16:27.446] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, neoforgeclientdev, --version, 21.4.156, --assetIndex, 19, --assetsDir, C:\\Users\\Utilisateur\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 6.0.18, --fml.mcVersion, 1.21.4, --fml.neoForgeVersion, 21.4.156, --fml.neoFormVersion, 20241203.161809]
+[22mars2026 10:16:27.446] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Azul Systems, Inc. OpenJDK 64-Bit Server VM 21.0.10+7-LTS
+[22mars2026 10:16:27.451] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.10 by Azul Systems, Inc.; OS Windows 11 arch amd64 version 10.0
+[22mars2026 10:16:27.557] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[22mars2026 10:16:27.714] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[22mars2026 10:16:27.814] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[22mars2026 10:16:27.911] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon RX 7600 XT GL version 4.6.0 Core Profile Context 26.3.1.260309, ATI Technologies Inc.
+[22mars2026 10:16:27.914] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/Utilisateur/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23162!/ Service=ModLauncher Env=CLIENT
+[22mars2026 10:16:28.268] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[22mars2026 10:16:28.270] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		All In MC: Multiminer 0.1.0 (allinmc_multiminer)
+		Minecraft 1.21.4 (minecraft)
+		NeoForge 21.4.156 (neoforge)
+[22mars2026 10:16:30.254] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'neoforgeclientdev' with arguments [--version, 21.4.156, --gameDir, ., --assetsDir, C:\Users\Utilisateur\.gradle\caches\neoformruntime\assets, --assetIndex, 19]
+[22mars2026 10:16:35.928] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[22mars2026 10:16:37.294] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 246 Datafixer optimizations took 2247 milliseconds
+[22mars2026 10:16:44.570] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22mars2026 10:16:44.573] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22mars2026 10:16:44.575] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22mars2026 10:16:44.575] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22mars2026 10:16:44.575] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22mars2026 10:16:44.879] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Utilisateur/Documents/project/Minecraft/amcmod/modpack/AllInMC/MultiMiner/build/moddev/artifacts/neoforge-21.4.156.jar%23215!/assets/.mcassetsroot' uses unexpected schema
+[22mars2026 10:16:44.879] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Utilisateur/Documents/project/Minecraft/amcmod/modpack/AllInMC/MultiMiner/build/moddev/artifacts/neoforge-21.4.156.jar%23215!/data/.mcassetsroot' uses unexpected schema
+[22mars2026 10:16:44.924] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22mars2026 10:16:44.936] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22mars2026 10:16:45.056] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.495] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.503] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.505] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.555] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.566] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.566] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.574] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.639] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.640] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.640] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.641] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.641] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.641] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.641] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.642] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.642] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.642] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.643] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.643] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.643] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.643] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.643] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.643] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.657] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.4.156, for MC 1.21.4
+[22mars2026 10:16:45.657] [modloading-worker-0/INFO] [com.sqersters.allinmc.multiminer.AllInMCMultiminer/]: All In MC: Multiminer loaded!
+[22mars2026 10:16:45.708] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.709] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.709] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.709] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.709] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.709] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.709] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.710] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.774] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.827] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.828] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.828] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.828] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.828] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.829] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.830] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.830] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.832] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.890] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.890] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.891] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.891] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.891] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.892] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.893] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.893] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.910] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.910] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.910] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.911] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.912] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.976] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.976] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:45.977] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.041] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.041] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.042] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.044] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.044] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.044] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.044] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.044] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.044] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.114] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.175] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.240] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.240] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.241] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.241] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.241] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.241] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.241] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.242] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.242] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.242] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.242] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.243] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.243] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.243] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.245] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.245] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.274] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.294] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.358] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:46.365] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:47.244] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [allinmc_multiminer]
+[22mars2026 10:16:47.586] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/allinmc_multiminer, mod/neoforge
+[22mars2026 10:16:47.918] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-16.0.01.hex, loading
+[22mars2026 10:16:47.918] [resourceLoad/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-16.0.01.hex, loading
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:48.276] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.708] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Haut-parleurs (High Definition Audio Device)
+[22mars2026 10:16:53.708] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22mars2026 10:16:53.797] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[22mars2026 10:16:53.803] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22mars2026 10:16:53.803] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22mars2026 10:16:53.803] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22mars2026 10:16:53.804] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22mars2026 10:16:53.811] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22mars2026 10:16:53.812] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22mars2026 10:16:53.812] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22mars2026 10:16:53.812] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22mars2026 10:16:53.815] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[22mars2026 10:16:53.929] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[22mars2026 10:16:53.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22mars2026 10:16:53.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22mars2026 10:16:53.930] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[22mars2026 10:16:53.932] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:16:53.970] [Render thread/INFO] [com.mojang.blaze3d.platform.GlDebug/]: OpenGL debug message: id=1080, source=API, type=ERROR, severity=HIGH, message='No detailed debug message due to a non-debug context'
+[22mars2026 10:17:10.861] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1370 recipes
+[22mars2026 10:17:10.873] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
+[22mars2026 10:17:10.874] [Render thread/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[22mars2026 10:17:12.477] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.4
+[22mars2026 10:17:12.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22mars2026 10:17:15.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22mars2026 10:17:15.238] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22mars2026 10:17:15.714] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[22mars2026 10:17:16.213] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[22mars2026 10:17:16.713] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[22mars2026 10:17:17.209] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[22mars2026 10:17:17.237] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[22mars2026 10:17:17.246] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2045 ms
+[22mars2026 10:17:17.288] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22mars2026 10:17:17.288] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22mars2026 10:17:18.255] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:2d1067e3] logged in with entity id 28 at (-111.5, 78.0, -340.5)
+[22mars2026 10:17:18.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22mars2026 10:17:18.521] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2 advancements
+[22mars2026 10:17:32.003] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 4 advancements
+[22mars2026 10:17:44.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[22mars2026 10:17:44.049] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[22mars2026 10:17:46.251] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 8 advancements
+[22mars2026 10:17:52.556] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 10 advancements
+[22mars2026 10:18:04.968] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 12 advancements
+[22mars2026 10:18:26.490] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22mars2026 10:18:26.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22mars2026 10:18:26.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22mars2026 10:18:26.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22mars2026 10:18:35.341] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22mars2026 10:18:35.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22mars2026 10:18:35.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22mars2026 10:18:35.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22mars2026 10:18:53.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[22mars2026 10:18:53.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[22mars2026 10:19:29.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Cover Me in Debris]
+[22mars2026 10:19:29.617] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Cover Me in Debris]
+[22mars2026 10:19:29.650] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 15 advancements
+[22mars2026 10:19:32.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[22mars2026 10:19:32.923] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[22mars2026 10:19:38.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Stone Age]
+[22mars2026 10:19:38.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Stone Age]
+[22mars2026 10:19:38.359] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 33 advancements
+[22mars2026 10:19:53.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Applied effect Night Vision to Dev]
+[22mars2026 10:19:53.923] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Applied effect Night Vision to Dev
+[22mars2026 10:20:15.562] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 35 advancements
+[22mars2026 10:20:31.111] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 45 advancements
+[22mars2026 10:21:00.990] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22mars2026 10:21:01.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22mars2026 10:21:01.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22mars2026 10:21:01.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22mars2026 10:21:01.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22mars2026 10:21:01.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22mars2026 10:21:01.763] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22mars2026 10:21:01.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22mars2026 10:21:01.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22mars2026 10:21:01.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22mars2026 10:21:02.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[22mars2026 10:21:02.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[22mars2026 10:21:02.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[22mars2026 10:21:02.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[22mars2026 10:21:02.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22mars2026 10:21:02.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22mars2026 10:21:02.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22mars2026 10:21:03.571] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

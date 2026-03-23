@@ -1,0 +1,12 @@
+{
+  "allinmc_multiminer.config.veinMining": "Vein Mining",
+  "allinmc_multiminer.config.veinMining.enabled": "Enabled",
+  "allinmc_multiminer.config.veinMining.maxBlocks": "Max Blocks",
+  "allinmc_multiminer.config.veinMining.activation": "Activation Mode",
+  "allinmc_multiminer.config.treeFelling": "Tree Felling",
+  "allinmc_multiminer.config.treeFelling.enabled": "Enabled",
+  "allinmc_multiminer.config.treeFelling.maxBlocks": "Max Blocks",
+  "allinmc_multiminer.config.treeFelling.activation": "Activation Mode",
+  "key.allinmc_multiminer.toggle": "Toggle Multi-Mining",
+  "key.categories.allinmc_multiminer": "All In MC: Multiminer"
+}

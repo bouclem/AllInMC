@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="allinmc_multiminer"
+version="0.1.3"
+displayName="All In MC: Multiminer"
+authors="Sqersters"
+description='''
+Advanced mining and tree-chopping mechanics for faster and smoother gameplay.
+Part of the All In MC modpack.
+'''
+
+[[dependencies.allinmc_multiminer]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.4.156,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.allinmc_multiminer]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.4]"
+    ordering="NONE"
+    side="BOTH"
